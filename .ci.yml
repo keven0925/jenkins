@@ -9,6 +9,6 @@ step:
     stage: package
     script:
         - mvn -B -U clean package -pl war -am -DskipTests
-    is_pkg: true
-    pkgType: war
-    pkgFolder: war/target/
+    is_package: true
+    PackageType: war
+    PackageFolder: war/target/
